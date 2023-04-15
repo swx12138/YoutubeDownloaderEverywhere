@@ -14,8 +14,6 @@ namespace YoutubeDownloader.Services;
 [AddINotifyPropertyChangedInterface]
 public partial class SettingsService : SettingsBase, INotifyPropertyChanged
 {
-    public bool IsUkraineSupportMessageEnabled { get; set; } = true;
-
     public bool IsAutoUpdateEnabled { get; set; } = true;
 
     public bool IsDarkModeEnabled { get; set; } = IsDarkModeEnabledByDefault();
